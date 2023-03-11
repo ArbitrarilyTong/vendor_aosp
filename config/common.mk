@@ -210,6 +210,11 @@ endif
 PRODUCT_PACKAGES += \
     NexusLauncherResOverlay
 
+# GeekDroid
+PRODUCT_PACKAGES += \
+    GeekDroid
+
+
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
